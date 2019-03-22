@@ -8,3 +8,8 @@ Packets are formed in accordance to [ETSI specification](https://www.etsi.org/de
 
 
 ## Running
+
+git clone https://github.com/vsabz/GPRS-Tunneling-Protocol-packet-simulator.git
+cd GPRS-Tunneling-Protocol-packet-simulator
+javac GTPMessageBuildingBlocks/*.java GTPMessages/*.java UI/*.java Utilities/*.java
+java UI/SGSNUI
